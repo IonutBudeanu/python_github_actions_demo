@@ -19,8 +19,8 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      API-KEY_USER: "${{ secrets.MY_USER }}"
-      API-KEY_PASS: "${{ secrets.MY_PASS }}"
+      MY_USER: "${{ secrets.MY_USER }}"
+      MY_PASS: "${{ secrets.MY_PASS }}"
 
     steps:
     - uses: actions/checkout@v3
